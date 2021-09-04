@@ -1,6 +1,6 @@
 # HiddenVNC
 
-**这是一款简单的hvnc软件**
+**HF有老哥放出来了自己的tinynuke修复版，我这份之前做的也就开源出来吧**  
 
 hvnc是一种用来解决异地登陆（比如浏览器，操作系统/插件版本，语言环境，时区等对用户的系统进行指纹识别）的方法。  
 
@@ -8,7 +8,7 @@ hvnc是一种用来解决异地登陆（比如浏览器，操作系统/插件版
 
 hvnc可以利用一些鲜为人知的Windows功能，例如CreateDesktop和跨进程窗口子类来实现VNC运行的不可见环境。
 
-详细一点的介绍可以看这篇文章：[Hidden VNC for Beginners](https://www.malwaretech.com/2015/09/hidden-vnc-for-beginners.html "Hidden VNC for Beginners")  ，里面有较为详细的原理及应用讲解。
+详细一点的介绍可以看这篇文章：[HVNC恶意软件介绍、分析、现状及应对措施](https://bbs.pediy.com/thread-264956.htm "HVNC恶意软件介绍、分析、现状及应对措施") ，里面有较为详细的原理及应用讲解。
 
 ## 编译
 在Visual Studio 2019中打开解决方案，选择Realease/x86即可编译。默认客户端ip为127.0.0.1，如有需要请自行修改。
@@ -21,11 +21,11 @@ hvnc可以利用一些鲜为人知的Windows功能，例如CreateDesktop和跨�
 hvnc新建的桌面很难通过简单的方式切换，所以为了方便验证及测试，在 /anti-hvnc 里有一个切换及检测桌面和进程的软件，源代码：[HiddenDesktopViewer](https://github.com/AgigoNoTana/HiddenDesktopViewer "HiddenDesktopViewer") ，具体用法详见该Repo的介绍。
 
 ## 支持
-* 未测试以下系统(32和64位)
+* 未测试以下系统
   * Windows XP SP3
   * Windows Server 2003
   * Windows Vista
-* 确认支持以下系统(32和64位)
+* 确认支持以下系统
   * Windows Server 2008
   * Windows 7
   * Windows Server 2012
